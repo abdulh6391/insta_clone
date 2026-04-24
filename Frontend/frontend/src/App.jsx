@@ -7,7 +7,7 @@ const App = () => {
   return (
     <PostContextProvider>
     <AuthContextProvider>
-      <RouterProvider router={routes}/>
+      <RouterProvider router={routes}/> 
     </AuthContextProvider>
     </PostContextProvider>
   )
